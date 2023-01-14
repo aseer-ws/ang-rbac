@@ -12,7 +12,7 @@ jobs:
         id: coverage
         with:
           output: report-markdown
-          package-manager: pnpm
+          package-manager: yarn
       - uses: marocchino/sticky-pull-request-comment@v2
         with:
           message: ${{ steps.coverage.outputs.report }}
