@@ -1,4 +1,4 @@
-name: 'coverage'
+name: 'Jest Coverage Report'
 on:
   pull_request:
     branches:
@@ -12,6 +12,7 @@ jobs:
         id: coverage
         with:
           output: report-markdown
+          package-manager: pnpm
       - uses: marocchino/sticky-pull-request-comment@v2
         with:
           message: ${{ steps.coverage.outputs.report }}
