@@ -1,5 +1,15 @@
 # Angular RBAC Template
 
+## Features
+
+- [ ] Roles
+- [ ] Permissions
+- [ ] RBAC
+
+## Miscellaneous
+
+- [x] [Commit Lint](https://www.freecodecamp.org/news/how-to-use-commitlint-to-write-good-commit-messages)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
 
 ## Development server
